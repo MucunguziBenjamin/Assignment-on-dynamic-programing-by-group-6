@@ -26,7 +26,7 @@ def print_optimal_parenthesization(s, i, j):
         print(")", end="")
 
 # Example usage
-p = [2, 3, 4, 5]  # Dimensions of matrices
+p = [2, 3, 4, 5]  
 min_cost, s = matrix_chain_order(p)
 print(f"Minimum number of multiplications: {min_cost}")
 print("Optimal Parenthesization: ", end="")
