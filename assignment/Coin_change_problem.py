@@ -1,16 +1,14 @@
 #coin change problem
 def coin_change(coins, amount):
-    # Step 1: Initialize DP Table
+   
     dp = [float('inf')] * (amount + 1)
     dp[0] = 0  # Base case: 0 coins needed for amount 0
 
-    # Step 2: Fill DP Table
     for i in range(1, amount + 1):
         for coin in coins:
             if i >= coin:
                 dp[i] = min(dp[i], dp[i - coin] + 1)
 
-    # Step 3: Return Result
     if dp[amount] == float('inf'):
         return -1, []  # No solution exists
     else:
