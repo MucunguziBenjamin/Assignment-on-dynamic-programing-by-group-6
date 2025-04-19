@@ -18,3 +18,6 @@ values = [60, 100, 120]
 capacity = 5
 max_value = knapsack(weights, values, capacity)
 print("The maximum value in the knapsack is: ",max_value)
+
+ # Time Complexity: O(n * capacity)
+ # Space Complexity: O(n * capacity)
