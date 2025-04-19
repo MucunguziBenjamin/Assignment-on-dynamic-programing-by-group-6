@@ -31,3 +31,6 @@ min_cost, s = matrix_chain_order(p)
 print(f"Minimum number of multiplications: {min_cost}")
 print("Optimal Parenthesization: ", end="")
 print_optimal_parenthesization(s, 0, len(p) - 2)
+
+ # Time Complexity: O(n^3) - The algorithm involves three nested loops.
+ # Space Complexity: O(n^2) - Two 2D arrays of size n x n are used.
