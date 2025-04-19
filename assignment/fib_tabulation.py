@@ -15,3 +15,6 @@ def fibonacci(n):
 if __name__ == "__main__":
     n = 10  
     print(f"The {n}-th Fibonacci number is: {fibonacci(n)}")
+
+# Time Complexity: O(n) - The function iterates through a loop n-1 times.
+    # Space Complexity: O(1) - Only a constant amount of space is used for variables.
