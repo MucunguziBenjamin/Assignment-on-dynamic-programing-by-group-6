@@ -29,3 +29,6 @@ amount = 11
 min_coins, coin_combination = coin_change(coins, amount)
 print(f"Minimum coins required: {min_coins}")
 print(f"Coins used: {coin_combination}")
+
+# Time Complexity: O(n * m), where n is the amount and m is the number of coin denominations
+# Space Complexity: O(n), where n is the amount (for the dp array)
