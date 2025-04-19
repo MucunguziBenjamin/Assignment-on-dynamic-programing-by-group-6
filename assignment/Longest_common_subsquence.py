@@ -29,6 +29,9 @@ def lcs(s1, s2):
 s1 = "ABCBDAB"
 s2 = "BDCAB"
 
+ # Time Complexity: O(m * n) where m and n are the lengths of s1 and s2 respectively.
+ # Space Complexity: O(m * n) for the dp array used to store the lengths of LCS.
+
 length, sequence = lcs(s1, s2)
 print(length)
 print(sequence)
